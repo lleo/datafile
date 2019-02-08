@@ -7,15 +7,13 @@ those data structs).
 
 ## Subprojects:
 
-* backing store for the above Goal.
-* in memory data stucture to access the top level goal which can not or
-  should not be loaded into memory.
-* [lower priority] a single file access to the above (list of data structs
-  & indexes over those data structs) which may be logically separated into
-  coupled files aka a mini-filesystem.
+* A backing store for the above Goal.
+* An in memory data stucture to access backing store.
+* [lower priority] a single file access to the backing store, which may be
+  logically separated into coupled files aka a mini-filesystem.
 
 ## Deliverables:
 
-* golang API and/or toolkit for defining the data structs and which indexes
-  an type of indexes to build/maintain.
-* golang library to access the above defined artifact
+* Golang API and/or toolkit for defining an Artifact that determines the data
+  structs and which indexes and type of indexes to build/maintain.
+* Golang library to access the above defined Artifact.
