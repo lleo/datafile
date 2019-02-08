@@ -1,6 +1,6 @@
-Project: datafile or datastore
+# Project: datafile or datastore
 
-# Goal:
+## Goal:
 
 Implement a (persistent & functional) (list of data structs & indexes over
 those data structs).
